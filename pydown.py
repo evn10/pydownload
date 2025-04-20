@@ -27,7 +27,7 @@ class PyDown:
                ys.download(output_path="/home/ake/Downloads/", filename=f'{yt_title}.mp3')
             else:
                ys.streams.get_highest_resolution()
-               ys.download(output_path="/home/ake/Downloads")
+               ys.download(output_path="/home/ake/Music")
               
         except Exception as err:
             print(f"An error {err=} has occurred with type {type(err)=}")
